@@ -8,13 +8,17 @@
   justify-content: center;
 }
 
+
 .wordContainer{
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15rem;
   max-width: 100vw;
   width: auto;
+  margin-top: 5rem;
+  
 }
 
 .word{
@@ -25,7 +29,10 @@
   background-color: white;
   width: auto;
   max-width: 100vw;
+  
 }
+
+
 
 .inputContainer{
   width: 100%;
@@ -45,4 +52,64 @@
   color:black;
   border: 0.5vh solid green;
   box-shadow: 0 0 15px 5px grey;
+}
+
+.timerBox{
+  margin: 1rem 0;
+}
+
+.timer{
+    background-color: red;
+    height: 2rem;
+}
+
+
+
+.resetBtnContainer{
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.resetBtn{
+  height: 5rem;
+  width: 100vw;
+  border-radius: 0;
+  margin: 0;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  color:white;
+  background-color: green;
+  border:none;
+  box-shadow: 0 0 10px 3px grey;
+}
+
+.resetBtn:hover{
+  box-shadow: 0 0 10px 3px black;
+}
+
+.title{
+  text-align: center;
+  font-size: 5.5rem;
+  margin-bottom: 5rem;
+  color:green;
+}
+
+.puntuacionTitle{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.score{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.puntuacionContainer{
+  box-shadow: 0 0 10px 3px grey;
+  padding: 1rem 0 ;
 }
