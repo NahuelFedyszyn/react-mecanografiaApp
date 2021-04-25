@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-mecanografiaApp/static/css/main.055a898e.chunk.css",
+    "main.js": "/react-mecanografiaApp/static/js/main.f288b0a0.chunk.js",
+    "main.js.map": "/react-mecanografiaApp/static/js/main.f288b0a0.chunk.js.map",
+    "runtime-main.js": "/react-mecanografiaApp/static/js/runtime-main.3d36a305.js",
+    "runtime-main.js.map": "/react-mecanografiaApp/static/js/runtime-main.3d36a305.js.map",
+    "static/js/2.fdcb6d47.chunk.js": "/react-mecanografiaApp/static/js/2.fdcb6d47.chunk.js",
+    "static/js/2.fdcb6d47.chunk.js.map": "/react-mecanografiaApp/static/js/2.fdcb6d47.chunk.js.map",
+    "static/js/3.db704a23.chunk.js": "/react-mecanografiaApp/static/js/3.db704a23.chunk.js",
+    "static/js/3.db704a23.chunk.js.map": "/react-mecanografiaApp/static/js/3.db704a23.chunk.js.map",
+    "index.html": "/react-mecanografiaApp/index.html",
+    "static/css/main.055a898e.chunk.css.map": "/react-mecanografiaApp/static/css/main.055a898e.chunk.css.map",
+    "static/js/2.fdcb6d47.chunk.js.LICENSE.txt": "/react-mecanografiaApp/static/js/2.fdcb6d47.chunk.js.LICENSE.txt",
+    "static/media/break.454a86e6.mp3": "/react-mecanografiaApp/static/media/break.454a86e6.mp3",
+    "static/media/finish.f13b7bf3.mp3": "/react-mecanografiaApp/static/media/finish.f13b7bf3.mp3",
+    "static/media/key.2d3060e3.mp3": "/react-mecanografiaApp/static/media/key.2d3060e3.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d36a305.js",
+    "static/js/2.fdcb6d47.chunk.js",
+    "static/css/main.055a898e.chunk.css",
+    "static/js/main.f288b0a0.chunk.js"
+  ]
+}
