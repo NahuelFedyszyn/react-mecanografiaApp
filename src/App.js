@@ -6,14 +6,14 @@ import jsonWords from './words.json'
 import keyAudio from "./assests/sounds/key.mp3"
 import breakAudio from "./assests/sounds/break.mp3"
 import finishAudio from "./assests/sounds/finish.mp3"
-import { Transition, CSSTransition } from 'react-transition-group';
+import errorAudio from "./assests/sounds/error.mp3"
 
 let words = [...jsonWords];
 
 const keySound = new Audio(keyAudio);
 const breakSound = new Audio(breakAudio);
 const finishSound = new Audio(finishAudio);
-
+const errorSound = new Audio(errorAudio);
 
 
 
@@ -143,10 +143,27 @@ function App() {
           }
         }
         else{
+          errorSound.pause()
+          errorSound.currentTime = 0;
+          errorSound.play();
           setUserInput("");
         }
 
   }
+
+  document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.key === " ") {
+        if(finish){
+          reset();
+        }
+        else{
+          let userInput = document.getElementById("userInput");
+          userInput.focus();
+
+        }
+    }
+  };
 
   if(!finish){
     return (
@@ -158,7 +175,7 @@ function App() {
           </div>
   
           <div className="inputContainer">
-            <input className="userInput" autoComplete="off" id="userInput" value={userInput} onChange={handleInputChange} placeholder={placeholder}></input>
+            <input className="userInput" id="userInput" autoComplete="off" id="userInput" value={userInput} onChange={handleInputChange} placeholder={placeholder}></input>
           </div>
           <div className="timerBox">
             <div className="timer" style={timerStyle}></div>
@@ -185,6 +202,19 @@ function App() {
           </div>
           <div className="resetBtnContainer">
             <button className="resetBtn" onClick={reset}>JUGAR DE NUEVO</button>
+          </div>
+          <div className="contactContainer">
+            <div className="nameContainer">
+              <a target="_blank" href="https://nahuelfedyszyn.github.io/Portafolio/"  className="nahuel">Nahuel Fedyszyn</a>
+            </div>
+            <div className="linkContainer">
+              <a target="_blank" href="https://www.linkedin.com/in/nahuel-fedyszyn-a95764186/" className="link"><i class="bi bi-linkedin"></i></a>
+              <a target="_blank" href="https://github.com/NahuelFedyszyn/react-mecanografiaApp" className="link"><i class="bi bi-github"></i></a>
+              <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=nahuelfedyszyn@gmail.com"  className="link"><i class="bi bi-google"></i></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=5493874117921"  className="link"><i class="bi bi-whatsapp"></i></a>
+
+            </div>
+
           </div>
         </div>
       </div>
