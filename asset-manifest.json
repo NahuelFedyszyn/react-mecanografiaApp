@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-mecanografiaApp/static/css/main.69183900.chunk.css",
-    "main.js": "/react-mecanografiaApp/static/js/main.1d765a3b.chunk.js",
-    "main.js.map": "/react-mecanografiaApp/static/js/main.1d765a3b.chunk.js.map",
+    "main.js": "/react-mecanografiaApp/static/js/main.7fbcc4fa.chunk.js",
+    "main.js.map": "/react-mecanografiaApp/static/js/main.7fbcc4fa.chunk.js.map",
     "runtime-main.js": "/react-mecanografiaApp/static/js/runtime-main.3d36a305.js",
     "runtime-main.js.map": "/react-mecanografiaApp/static/js/runtime-main.3d36a305.js.map",
     "static/js/2.c0c90236.chunk.js": "/react-mecanografiaApp/static/js/2.c0c90236.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.3d36a305.js",
     "static/js/2.c0c90236.chunk.js",
     "static/css/main.69183900.chunk.css",
-    "static/js/main.1d765a3b.chunk.js"
+    "static/js/main.7fbcc4fa.chunk.js"
   ]
 }
